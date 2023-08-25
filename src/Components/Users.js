@@ -26,7 +26,7 @@ export default function Users() {
     return (
       <div>
         <h3>List of all Users</h3>
-        <Grid container spacing={3}>
+        <Grid container spacing={2}>
           {users.map(user => (
             <Grid item xs={3} key={user.id}>
               <Card className={classes.card}>

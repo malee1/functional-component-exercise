@@ -18,6 +18,7 @@ export default function Photos() {
     const getImages = async() => {
         const response = await fetch('https://jsonplaceholder.typicode.com/photos');
         const json = await response.json();
+        // console.log(json);
         setPhotos(json);
     }
 
